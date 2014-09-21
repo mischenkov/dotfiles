@@ -42,3 +42,6 @@ RPROMPT='%~'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+### Postgres settings for Ruby
+export DATABASE_URL=postgres:///$(whoami)
